@@ -1574,7 +1574,7 @@ Transform:
   m_GameObject: {fileID: 1301836300}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.18365064, w: 0.9829916}
-  m_LocalPosition: {x: -5.02, y: -1.91, z: 0}
+  m_LocalPosition: {x: -4.89, y: -1.86, z: 0}
   m_LocalScale: {x: 8.7625, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1661,7 +1661,7 @@ Transform:
   m_GameObject: {fileID: 1424970997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.44, y: -1.6, z: 0}
+  m_LocalPosition: {x: -10.25, y: -1.29, z: 0}
   m_LocalScale: {x: 0.65, y: 0.7125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1725,7 +1725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  nextlevel: Scene 2*
+  nextlevel: GeoQuest2
 --- !u!50 &1424971002
 Rigidbody2D:
   serializedVersion: 4
@@ -1844,7 +1844,7 @@ AreaEffector2D:
     m_Bits: 4294967295
   m_UseGlobalAngle: 0
   m_ForceAngle: 90
-  m_ForceMagnitude: 300
+  m_ForceMagnitude: 100
   m_ForceVariation: 0
   m_ForceTarget: 0
   m_Drag: 0
@@ -2185,11 +2185,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4848134893067450259, guid: c3f438803b23bb746a522fc2631093a3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.88393044
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 4848134893067450259, guid: c3f438803b23bb746a522fc2631093a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.051334
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 4848134893067450259, guid: c3f438803b23bb746a522fc2631093a3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2396,6 +2396,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1309466480278660347, guid: d453dd2688f0a9a489deb4ace60676e5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805154403992881179, guid: d453dd2688f0a9a489deb4ace60676e5, type: 3}
+      propertyPath: m_UsedByEffector
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
